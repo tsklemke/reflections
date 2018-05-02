@@ -16,4 +16,17 @@ Q: How can you use the staging area to make sure you have one commit per logical
 change?
 
 You can use the git diff and the git diff --staged commands to compare what changes have
-been made.   
+been made.  
+
+Q: What are some situations when branches would be helpful in keeping history organized? How
+would branches help?
+
+They're helpful when you're experimenting with a big change or trying to add a new feature. 
+They help because they're dedicated to that specific goal and making mistakes in them
+won't affect your master branch. 
+
+Q: How do the diagrams help you visualize the branch structure?
+
+They help you see what commits are accessible from where. It's like they're 
+parallel streets that only have connections in certain places. 
+ 
