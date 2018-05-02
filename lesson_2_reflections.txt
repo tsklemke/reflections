@@ -15,5 +15,5 @@ out what's important from the working directory and the repository.
 Q: How can you use the staging area to make sure you have one commit per logical
 change?
 
-You can use the git diff and the git diff --staging commands to compare what changes have
+You can use the git diff and the git diff --staged commands to compare what changes have
 been made.   
