@@ -1,0 +1,51 @@
+Viewing a diff between two versions helped me spot a bug because it 
+narrows down the lines of code that you have to look at. When you run 
+fc (file compare) on the two files it will only return lines that are 
+different between the two files. 
+
+Having easy access to the entire history of a file makes you 
+a more efficient programmer in the long term because you will be able 
+to quickly compare any of your old versions to see what changed from 
+version to version. This would help you spot bugs more quickly.
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+
+The obvious con is user error. You might make a bad call on when to commit. 
+The pros are that your commits will probably be more meaningful and make
+more sense logically. If you were commiting on an automatic schedule
+you'd end up with a lot of commmits that would just clutter up your review 
+process.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat 
+each file separately?
+
+I think that Git allows it because the work people are generally doing
+in Git makes it necessary. Other version control systems, like Google Docs, 
+probably don't include this feature because people will have multiple 
+files that aren't related. It would be annoying if Google saved a version
+of each of my documents every time I made a change to one of them. 
+
+How can you use the commands git log and git diff to view the history of 
+files?
+
+Git log will display a list of all of the commits in your repository. 
+This is helpful because it displays them in descending order starting with 
+the most recent commit. It gives you the name of the person who made it, 
+the date and time, and a short comment on what the commit was for. You can 
+use git diff to compare two commits. It will highlight what lines were added
+and removed. I think it will also highlight differences between the commits.
+
+How could using version control make you more confident to make changes 
+that could break something?
+
+With version control you can always go back to a previous version to figure
+out what went wrong. By comparing different commits you can pinpoint what 
+commit caused the issue. 
+
+Now that you have Git setup, what do you want to try using Git for?
+
+I guess I'd like to use it when I'm working on coding projects. It seems
+really handy for comparing different commits. 
