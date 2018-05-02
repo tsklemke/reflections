@@ -10,4 +10,10 @@ repository? What value do you think it offer?
 The staging area is where you put files that you'd like to commit. It's
 different from the working directory because files don't stay there, they're
 just there temporarily. The value it offers is that it helps you pare 
-out what's important from the working directory and the repository.  
+out what's important from the working directory and the repository.
+
+Q: How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can use the git diff and the git diff --staging commands to compare what changes have
+been made.   
