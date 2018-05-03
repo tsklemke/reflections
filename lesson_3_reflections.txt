@@ -21,3 +21,9 @@ on something someone else has built in GitHub without affecting their own work.
 You clone when you want to work on something locally that's on your GitHub 
 account. You use a branch when you want to experiment with a new feature without
 affecting your master branch of commits. 
+
+Q: What is a benefit of having the last known state of the remote stored locally?
+
+If you didn't have access to an internet connection you could still work on 
+your code locally. 
+
