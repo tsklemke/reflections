@@ -2,3 +2,8 @@ Q: When would you want to use a remote repository rather than keeping all your w
 
 The benefit of doing this is that it allows you to collaborate with other people and have 
 access to your work from any computer. 
+
+Q: Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+You don't want your changes pulled before you're ready to have them visible publicly. 
