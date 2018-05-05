@@ -34,3 +34,11 @@ I could collaborate over email...it would be hard to merge code together, but
 if we planned ahead and everyone stuck to the plan it might work out okay. It
 would be easier in some ways than learning how to use Git and GitHub at first. 
 In the long run though, Git and GitHub are far superior.
+
+Q: When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+
+You would want to make changes in a separate branch rather than master if you
+want to get feedback from your peers on the changes prior to committing them
+to the master branch. If you were to make changes directly to the master
+branch you would have your changes reflected sooner. 
